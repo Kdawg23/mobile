@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{
+  background: var(--background);
+  display: flex;
+  
+  margin: 0;
+  background-color: black;
+  font-family:'Oswald';
+}
+.theLightSide{
+  background-color: white;
+  color: black;
+}
+
+
+  .topnav {
+  position: fixed;
+  display: flex;
+  background-color: black;
+  overflow: hidden;
+  width: 100%;
+  align-items: center;
+  float: left;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 16px;
+  top: 0;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 15px 25px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+a:hover {
+  background-color: #8E8C8F;
+  color: #ffffff;
+}
+
+.logo {
+  font-size: 38px;
+  font-family: ariel sans;
+}
+
+.topnav a.activate {
+  background-color: #272628;
+}
