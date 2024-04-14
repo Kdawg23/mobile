@@ -1,3 +1,4 @@
-$(".theme-switch").on("click", () => {
-  $("body").toggleClass("light-theme");
-});
+const checkbox = document.getElementById("checkbox")
+checkbox.addEventListener("change", () => {
+  document.body.classList.toggle("dark")
+})
